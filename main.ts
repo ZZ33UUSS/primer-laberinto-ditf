@@ -69,6 +69,8 @@ Cat = sprites.create(assets.image`Cat`, SpriteKind.Food)
 tiles.placeOnRandomTile(Cat, sprites.builtin.forestTiles10)
 info.setScore(0)
 info.startCountdown(120)
+game.setGameOverMessage(true, "You Find Some Cats!")
+game.setGameOverMessage(false, "You Find Some Cats!")
 game.onUpdate(function () {
     Movimiento_Zero_Two = controller.up.isPressed() || (controller.right.isPressed() || (controller.down.isPressed() || controller.left.isPressed()))
     if (!(Movimiento_Zero_Two)) {

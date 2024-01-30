@@ -88,6 +88,25 @@ namespace myTiles {
 .........22.....22....2..2......
 ................2.....2..2......
 `, [myTiles.transparency16,sprites.builtin.forestTiles10,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile1,myTiles.tile2,myTiles.tile12,myTiles.tile13,sprites.builtin.forestTiles21,sprites.builtin.forestTiles24,sprites.builtin.forestTiles26,sprites.builtin.forestTiles27,sprites.builtin.forestTiles28,sprites.builtin.forestTiles29,sprites.builtin.forestTiles22,sprites.builtin.forestTiles23,sprites.swamp.swampTile0,sprites.swamp.swampTile1,sprites.swamp.swampTile2], TileScale.Sixteen);
+            case "level4":
+            case "level4":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
         }
         return null;
     })
